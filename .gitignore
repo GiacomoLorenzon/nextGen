@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+
+# Build output
+/dist/
+/build/
+/out/
+
+# TypeScript specific
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+
+# Compiled SCSS files
+*.css
+*.scssc
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Next.js specific (if using Next.js)
+.next/
+
+
