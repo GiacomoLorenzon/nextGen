@@ -1,34 +1,36 @@
 import React from "react";
-import '../assets/styles/Footer.scss'
-
-// import from MUI
-import ButtonIcon from '@mui/icons-material/DownhillSkiing';
-import PhoneIcon from '@mui/icons-material/Phone';
-import TelegramIcon from '@mui/icons-material/Telegram';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import EmailIcon from '@mui/icons-material/Email';
-
+// import '../assets/styles/Footer.scss'
 
 function Footer() {
   return (
-    <footer>
-      <div className="icons">
-        <a href="https://github.com/GiacomoLorenzon" target="_blank" rel="noreferrer">
-            <GitHubIcon style={{ fontSize: '1.2em', padding: '0', margin: '0' }}/>
-        </a>
-        <a href="mailto:lorenzon.giacomo99@gmail.com" target="_blank" rel="noreferrer">
-            <EmailIcon style={{ fontSize: '1.2em', padding: '0', margin: '0' }}/>
-        </a>
-        <a href="tel:+393472548166" target="_blank" rel="noreferrer">
-            <PhoneIcon style={{ fontSize: '1.2em', padding: '0', margin: '0' }} />
-        </a>
-        <a href="https://t.me/lorenzon_giacomo" target="_blank" rel="noreferrer">
-            <TelegramIcon style={{ fontSize: '1.2em', padding: '0', margin: '0' }} />
-        </a>
-      </div>
-      <p>
-        <b>Giacomo Lorenzon</b>
-      </p>
+    <footer className="mt-0 p-5 bg-white shadow-sm dark:bg-gray-900">
+      <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div className=" sm:items-center sm:justify-between">
+          <a href="https://.com/" className="flex items-center mb-4 space-x-3 rtl:space-x-reverse">
+            <h1 className="mb-2 text-5xl font-extralight text-gray-900 dark:text-white">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500">Ng</span>
+              <span className="dark:text-white">C</span>
+            </h1>
+          </a>
+          <h6 className="mb-10 text-lg font-normal whitespace-nowrap dark:text-white">Next-generation Consulting</h6>
+          <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+            <li>
+              <a href="#" className="hover:underline me-4 md:me-6">About</a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline me-4 md:me-6">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline me-4 md:me-6">Licensing</a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://.com/" className="hover:underline">Next-generation Consulting™</a>. All Rights Reserved.</span>
+        </div>
     </footer>
   );
 }
