@@ -9,4 +9,4 @@ npm run deploy
 
 
 on git-hub:
-settings > pages > source: enable gh-pages
+settings > pages > source: (invece che da main) enable gh-pages
