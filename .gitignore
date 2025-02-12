@@ -5,6 +5,8 @@ node_modules/
 /dist/
 /build/
 /out/
+package-lock.json
+tsconfig.json
 
 # TypeScript specific
 *.tsbuildinfo

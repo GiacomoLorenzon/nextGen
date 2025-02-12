@@ -4,7 +4,6 @@ import ArrowUpwardRoundedIcon from '@mui/icons-material/ArrowUpwardRounded';
 
 import { Landing, Info, Plans, Reviews, Form, Footer } from "./components"; // Import components from the "components" folder
 import './index.scss'; // Import the global SCSS file for styling
-import './App.scss'; // Import SCSS of main-container
 
 // The Main App component
 function App() {
@@ -13,15 +12,6 @@ function App() {
 
   // Define state for Back to Top button visibility
   const [isVisible, setIsVisible] = useState(false);
-
-  // Function to toggle the mode between 'light' and 'dark'
-  const handleModeChange = () => {
-    setMode((prevMode) => {
-      const newMode = prevMode === 'dark' ? 'light' : 'dark';
-      localStorage.setItem("mode", newMode); // Store the mode in localStorage
-      return newMode;
-    });
-  };
 
   // Toggle visibility of Back to Top button based on scroll position
   useEffect(() => {

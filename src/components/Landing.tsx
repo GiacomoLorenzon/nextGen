@@ -2,11 +2,8 @@ import React, { useState, useEffect } from "react";
 import EastRoundedIcon from '@mui/icons-material/EastRounded';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 
-// src/index.tsx or src/App.tsx
-import '../assets/styles/tailwind.css';  // Adjust the path as needed
-
 function Landing() {
-  const [height, setHeight] = useState(window.innerHeight);
+  const [height] = useState(window.innerHeight);
   const [darkMode, setDarkMode] = useState(false);
 
   // Check if there's a saved theme in localStorage and apply it

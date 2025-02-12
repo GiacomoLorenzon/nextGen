@@ -1,12 +1,5 @@
 import React from "react";
 
-import ContactPageRoundedIcon from '@mui/icons-material/ContactPageRounded';
-import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
-import AssignmentTurnedInRoundedIcon from '@mui/icons-material/AssignmentTurnedInRounded';
-import AssignmentRoundedIcon from '@mui/icons-material/AssignmentRounded';
-
-import '../assets/styles/Plans.scss'
-
 function Plans() {
   // Array containing all the plan details
 
